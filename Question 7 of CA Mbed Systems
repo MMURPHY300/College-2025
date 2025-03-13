@@ -1,0 +1,22 @@
+#include "mbed.h"
+
+// Create DigitalOut objects for LEDs
+int led1(LED1);  // LED1 pin (usually on the board)
+int led2(LED2);  // LED2 pin (usually on the board)
+
+
+int main() {
+    // Initialize LEDs to be off initially
+    led1 = 0;
+    led2 = 0;
+
+    while (true) {
+        // Toggle LED1 every 2 seconds
+        led1 = !led1;
+        
+
+        // Toggle LED2 every 5 seconds
+        led2 = !led2;
+       
+    }
+}
