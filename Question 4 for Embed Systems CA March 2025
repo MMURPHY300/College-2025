@@ -1,0 +1,20 @@
+#include <stdio.h> // Keep this line as its a key Start Point
+
+int main() {
+    // Initializing int variables a, b, and c
+    int a = 10, b = 20, c = 30;
+
+    // Add values of a and b, and store it in variable d
+    int d = a + b;
+
+    // Print the value of variable d
+    printf("The value of d (a + b) is: %d\n", d);
+
+    // Subtract variable c from d and store the result in variable e
+    int e = d - c;
+
+    // Print the value of variable e
+    printf("The value of e (d - c) is: %d\n", e);
+
+    return 0;
+}
